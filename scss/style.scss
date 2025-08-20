@@ -1,0 +1,10 @@
+// 初期設定
+@use './foundation/reset' as *;
+@use './foundation/base' as *;
+
+// 共通パーツ
+@use './object/component' as *;
+
+//設定系
+@forward './foundation/settings/variable';
+@forward './foundation/settings/mixin';
